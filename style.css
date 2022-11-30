@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(212, 45%, 89%);
+    font-family: 'Outfit', sans-serif;
+}
+
+.qr-component {
+    text-align: center;
+    box-shadow: 0px 0px 50px hsl(220, 15%, 55%);
+    border-radius: 20px;
+    padding: 20px;
+    width: 22%;
+    height: fit-content;
+    background-color: white;
+
+}
+
+.qr-component img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.qr-component h1 {
+    color: hsl(218, 44%, 22%);
+}
+
+.qr-component p {
+    color: hsl(220, 15%, 55%);
+    font-size: 15px;
+}
+
+/* Mobile Responsive */
+@media only screen and (max-width: 600px) {
+    .qr-component {
+        width: 80%;
+    }
+}
